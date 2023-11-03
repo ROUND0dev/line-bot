@@ -7,5 +7,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
-  post '/webhook' => 'linebot#callback'
+  post '/callback' => 'linebot#callback'
 end
