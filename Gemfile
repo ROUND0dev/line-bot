@@ -69,3 +69,5 @@ end
 
 # line bot
 gem 'line-bot-api'
+
+# gem 'dotenv-rails'
