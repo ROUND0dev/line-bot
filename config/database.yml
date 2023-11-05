@@ -84,4 +84,4 @@ production:
   <<: *default
   database: line_bot_production
   username: line_bot
-  password: postgres
+  password: <%= ENV["LINE_BOT_DATABASE_PASSWORD"] >
